@@ -1,0 +1,74 @@
+.container {
+  width: 40%;
+  padding: 0.45%;
+  margin-top: 10%;
+}
+.container h2 {
+  color: #4a15ad;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+}
+.form {
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  background-color: #15ad94;
+  padding: 15px 0px;
+}
+.inputContainer {
+  padding: 1%;
+  width: 90%;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.inputContainer label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #ddec0a;
+}
+.inputContainer input {
+  margin-top: 1%;
+  width: 95%;
+  padding: 2%;
+  border: 2px solid #15ad94;
+  outline: none;
+}
+.button {
+  width: 10%;
+  padding: 1%;
+  text-align: center;
+  border-radius: 30px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1%;
+  text-decoration: none;
+  transition: all 0.3s linear;
+}
+.button:hover {
+  background-color: #fff;
+  color: #4a15ad;
+}
+.button:active {
+  scale: 0.9;
+}
+.text {
+  text-align: center;
+  width: 250px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #4a15ad;
+}
+.link {
+  text-decoration: underline;
+  display: inline;
+  cursor: pointer;
+}
+.link:hover {
+  color: #666;
+}
